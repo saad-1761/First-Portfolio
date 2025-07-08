@@ -23,6 +23,19 @@
     border-radius: 5px;
     border:none;
 }
+.section-title{
+    font-size: 35;
+    font font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.secondary-bg{
+    background-color: #fff8f3;
+}
 /*
 .btn-secondary{
     background-color: white;
@@ -84,4 +97,26 @@ nav li a{
 .profile-picture{
     width: 584px;
     height: 676px;
+}
+
+main{
+    max-width:1140px;
+    margin: 0 auto;
+
+}
+.about
+{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.item-description{
+    font-weight: 600;
 }
